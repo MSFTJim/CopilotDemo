@@ -11,6 +11,8 @@ List<string> Integration_Terms = new() { "event", "Functions", "AIS", "Integrati
 
 
 
+
+
 foreach (var item in Integration_Terms)
 {
     Console.WriteLine(item);    
@@ -18,4 +20,13 @@ foreach (var item in Integration_Terms)
 
 
 Console.WriteLine("End of demo");
+
+int? a = null;
+int b = a ?? 0;
+Console.WriteLine(b);
+
+
+
+
+
 
