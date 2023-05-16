@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
+using System.Collections.Generic;
+
+
 Console.WriteLine("Start of demo");
 
 List<string> APIM_Terms = new() { "APIM", "API Management" };
@@ -9,6 +13,7 @@ List<string> Functions_Terms = new() { "function" };
 
 List<string> Integration_Terms = new() { "event", "Functions", "AIS", "Integration", "API", "serverless" };
 
+Integration_Terms.Sort();
 
 foreach (var item in Integration_Terms)
 {
@@ -17,11 +22,20 @@ foreach (var item in Integration_Terms)
 
 //  End of demo
 
+// Copilot Chat Demo
+
+
+// Copilot Chat Demo END
+
+
+
+
 Console.WriteLine("End of demo");
 
 int? a = null;
 int b = a ?? 0;
 Console.WriteLine(b);
+
 
 
 

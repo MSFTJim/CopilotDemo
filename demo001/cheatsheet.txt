@@ -2,3 +2,8 @@ Integration_Terms.AddRange(APIM_Terms);
 
 
 a > 0 
+
+
+create a list of 25 random first, last and email addresses
+
+generate bicep script for linux appservice running app named helloworld
