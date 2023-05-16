@@ -1,7 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 
 Console.WriteLine("Start of demo");
 
@@ -12,28 +11,15 @@ List<string> Functions_Terms = new() { "function" };
 
 
 List<string> Integration_Terms = new() { "API", "event", "Functions", "AIS", "Integration", "serverless" };
-
-
-foreach (var item in Integration_Terms)
-{
-    Console.WriteLine(item);    
-}
-
-//  End of demo
-
-// Copilot Chat Demo
-
-
-// Copilot Chat Demo END
-
+Integration_Terms.AddRange(APIM_Terms);
+Integration_Terms.AddRange(SB_Terms);
+Integration_Terms.AddRange(LA_Terms);
+Integration_Terms.AddRange(Functions_Terms);
 
 
 
 Console.WriteLine("End of demo");
 
-int? a = null;
-int b = a ?? 0;
-Console.WriteLine(b);
 
 
 
