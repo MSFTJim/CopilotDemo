@@ -1,5 +1,8 @@
 Integration_Terms.AddRange(APIM_Terms);
 
+combine my lists into the Integration_Terms list
+
+what is the count each letter in the Integration_Terms list
 
 a > 0 
 

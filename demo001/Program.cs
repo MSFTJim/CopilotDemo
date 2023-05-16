@@ -11,9 +11,8 @@ List<string> LA_Terms = new() { "Logic App", "LogicApp" };
 List<string> Functions_Terms = new() { "function" };
 
 
-List<string> Integration_Terms = new() { "event", "Functions", "AIS", "Integration", "API", "serverless" };
+List<string> Integration_Terms = new() { "API", "event", "Functions", "AIS", "Integration", "serverless" };
 
-Integration_Terms.Sort();
 
 foreach (var item in Integration_Terms)
 {
@@ -35,6 +34,7 @@ Console.WriteLine("End of demo");
 int? a = null;
 int b = a ?? 0;
 Console.WriteLine(b);
+
 
 
 
