@@ -10,14 +10,12 @@ List<string> Functions_Terms = new() { "function" };
 List<string> Integration_Terms = new() { "event", "Functions", "AIS", "Integration", "API", "serverless" };
 
 
-
-
-
 foreach (var item in Integration_Terms)
 {
     Console.WriteLine(item);    
 }
 
+//  End of demo
 
 Console.WriteLine("End of demo");
 
